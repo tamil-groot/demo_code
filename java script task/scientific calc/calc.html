@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scientific calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<div class="one container-fluid ">
+    <form name="form1">
+        <input type="text" name="number" id="output-screen"  class="screen p-4 w-100 col-6 " placeholder="0">
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="sin" onclick="sin()">
+                <input type="button" class=" inner-1 p-2" value="9" onclick="display('9')">
+                <input type="button" class=" inner-1 p-2" value="8"  onclick="display('8')">
+                <input type="button" class=" inner-1 p-2" value="7" onclick="display('7')">
+                <input type="button" class=" inner-4 p-2 " value="AC" onclick="ac()">
+            </div>
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="cos" onclick="cos()">
+                <input type="button" class=" inner-1 p-2" value="6" onclick="display('6')">
+                <input type="button" class="inner-1 p-2" value="5" onclick="display('5')">
+                <input type="button" class=" inner-1 p-2" value="4" onclick="display('4')">
+                <input type="button" class=" inner-3 p-2 " value="DEL" onclick="del()">
+            </div>
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="tan" onclick="tan()">
+                <input type="button" class=" inner-1 p-2" value="3" onclick="display('3')">
+                <input type="button" class="inner-1 p-2" value="2" onclick="display('2')">
+                <input type="button" class=" inner-1 p-2" value="+" onclick="display('+')">
+                <input type="button" class=" inner-1 p-2 " value="-" onclick="display('-')">
+            </div>
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="log" onclick="log()">
+                <input type="button" class=" inner-1 p-2" value="1" onclick="display('1')">
+                <input type="button" class="inner-1 p-2" value="0" onclick="display('0')">
+                <input type="button" class=" inner-1 p-2" value="*" onclick="display('*')">
+                <input type="button" class=" inner-1 p-2" value="/" onclick="display('/')">
+            </div>
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="%" onclick="per()">        
+                <input type="button" class=" border-1 inner-1 p-2" value="x&sup2;" onclick="square()">
+                <input type="button" class=" inner-1 p-2" value="(" onclick="form1.number.value+='('">
+                <input type="button" class="inner-1 p-2" value=")" onclick="form1.number.value+=')'">
+                <input type="button" class=" inner-1 p-2" value="&radic;" onclick="sqrt()">
+            </div>
+            <div class="row inner" >
+                <input type="button" class=" border-1 inner-1 p-2" value="&Pi;" onclick="pi()">
+                <input type="button" class=" inner-1 p-2" value="." onclick="display('.')">
+                <input type="button" class="inner-1 p-2" value="x!" onclick="fact()">
+                <input type="button" class=" inner-1 p-2" value="rad" onclick="rad()">
+                <input type="button" class=" inner-2 p-2 " value="=" onclick="form1.number.value = eval(form1.number.value)">
+            </div>
+        </form>
+        </div>
+
+
+
+
+    <script src="calc.js"></script>
+</body>
+</html>

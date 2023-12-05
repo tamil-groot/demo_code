@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+    justify-content: center; 
+    text-align: center:
+
+}
+.main{
+    width: 49%;
+    height: 100px;
+   /* background-color: aqua;*/
+   border: 2px solid;
+    float: left;
+    display: flex;
+}
+#divone{
+    height: 100px;
+    width: 50%;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#divtwo{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.second{
+    width: 50%;
+    height: 100px;
+   /* background-color: rgb(0, 255, 68);*/
+    border: 2px solid;
+    float: right;
+    display: flex;
+}
+#divthree{
+    height: 100px;
+    width: 50%;
+    background-color:darkorange;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+#divfour{
+    height: 100px;
+    width: 50%;
+    background-color:crimson;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+

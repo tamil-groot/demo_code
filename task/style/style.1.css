@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 300px;
+}
+.one{
+    width: 100%;
+    height: 25px;
+    background-color: darkgreen;
+}
+.two{
+    width: 100%;
+    height: 25px;
+}
+.twotop{
+    width: 50%;
+    height: 25px;
+    background-color:darkmagenta;
+    float: left;
+}
+.twobtm{
+    width: 50%;
+    height: 25px;
+    background-color: lightcoral;
+    float: left;
+}
+.three{
+    width: 100%;
+    height: 25px;
+}
+.threetop{
+    width: 33.33%;
+    height: 25px;
+    background-color: green;
+    float: left;
+}
+.threecnt{
+    width: 33.33%;
+    height: 25px;
+    background-color: orangered;
+    float: left;
+}
+.threebtm{
+    height: 25px;
+    width:33.33%;
+    float: left;
+    background-color: white;
+}
+.four{
+    width: 100%;
+    height: 25px;
+}
+.fourtop{
+    width: 25%;
+    height: 25px;
+    float: left;
+    background-color: dimgray;
+}
+.fourcnt1{
+    width: 25%;
+    height: 25px;
+    float: left;
+    background-color: lightpink;
+}
+.fourcnt2{
+    width: 25%;
+    height: 25px;
+    background-color: aqua;
+    float: left;
+}
+.fourbtm{
+    width: 25%;
+    height: 25px;
+    background-color: yellow;
+    float: left;
+}
+.five{
+    width: 100%;
+    height: 25px;
+}
+.fivetop{
+    width: 20%;
+    height: 25px;
+    background-color: fuchsia;
+    float: left;
+}
+.fivecnt1{
+    width: 20%;
+    height: 25px;
+    background-color: chartreuse;
+    float: left;
+}
+.fivecnt2{
+    width: 20%;
+    height: 25px;
+    background-color: dimgrey;
+    float: left;
+}
+.fivecnt3{
+    width: 20%;
+    height: 25px;
+    background-color: whitesmoke;
+    float: left;
+}
+.fivebtm{
+    width: 20%;
+    height: 25px;
+    background-color: lightpink;
+    float: left;
+}
+.six{
+    width: 100%;
+    height: 25px;
+}
+.sixtop{
+    width: 16.6%;
+    height: 25px;
+    float: left;
+    background-color: chocolate;
+}
+.sixcnt1{
+    width: 16.6%;
+    height: 25px;
+    float: left;
+    background-color: blueviolet;
+}
+.sixcnt2{
+    width: 16.6%;
+    height: 25px;
+    float: left;
+    background-color: lawngreen;
+}
+.sixcnt3{
+    width: 16.7%;
+    height: 25px;
+    float: left;
+    background-color: black;
+}
+.sixcnt4{
+    width: 16.7%;
+    height: 25px;
+    float: left;
+    background-color: greenyellow;
+}
+.sixbtm{
+    width: 16.7%;
+    height: 25px;
+    float: left;
+    background-color: darksalmon
+}
+.seven{
+    width: 100%;
+    height: 25px;
+}
+.seventop{
+    width: 14.3%;
+    height: 25px;
+    background-color: blueviolet;
+    float: left;
+}
+.sevencnt1{
+    width: 14.3%;
+    height: 25px;
+    float: left;
+    background-color: brown;
+}
+.sevencnt2{
+    background-color: deeppink;
+    width: 14.3%;
+    height: 25px;
+    float: left;
+}
+.sevencnt3{
+    background-color: aquamarine;
+    width: 14.3%;
+    height: 25px;
+    float: left;
+}
+.sevencnt4{
+    background-color: grey;
+    width: 14.3%;
+    height: 25px;
+    float: left;
+}
+.sevencnt5{
+    width: 14.3%;
+    height: 25px;
+    float: left;
+    background-color: orange;
+}
+.sevenbtm{
+    width: 14.2%;
+    height: 25px;
+    float: left;
+    background-color: aquamarine;
+}
+.eight{
+    width: 100%;
+    height: 25px;
+}
+.eighttop{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: chocolate;
+}
+.eightcnt1{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: antiquewhite;
+}
+.eightcnt2{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: yellow;
+}
+.eightcnt3{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: coral;
+}
+.eightcnt4{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: red;
+}
+.eightcnt5{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: blue;
+}
+.eightcnt6{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: blueviolet;
+}
+.eightbtm{
+    width: 12.5%;
+    height: 25px;
+    float: left;
+    background-color: darkgoldenrod;
+}
+.nine{
+    width: 100%;
+    height: 25px;
+}
+.ninetop{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: blueviolet;
+}
+.ninecnt1{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: blue;
+}
+.ninecnt2{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: darkgoldenrod;
+}
+.ninecnt3{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: deeppink;
+}
+.ninecnt4{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: burlywood;
+}
+.ninecnt5{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: brown;
+}
+.ninecnt6{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: gold;
+}
+.ninecnt7{
+    width: 11.1%;
+    height: 25px;
+    float: left;
+    background-color: darkgreen;
+}
+.ninebtm{
+    width: 11.2%;
+    height: 25px;
+    float: left;
+    background-color: dimgrey;
+}
+.ten{
+    width: 100%;
+    height: 25px;
+}
+.tentop{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: darkmagenta;
+}
+.tencnt1{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: fuchsia;
+}
+.tencnt2{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: burlywood;
+}
+.tencnt3{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: blueviolet;
+}
+.tencnt4{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: darkolivegreen;
+}
+.tencnt5{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: indigo;
+}
+.tencnt6{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: red;
+}
+.tencnt7{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: chartreuse;
+}
+.tencnt8{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: darkgreen;
+}
+.tenbtm{
+    width: 10%;
+    height: 25px;
+    float: left;
+    background-color: black;
+}

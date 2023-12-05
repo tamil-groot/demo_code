@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    color: antiquewhite;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor:alias;
+}
+.one{
+    width: 50%;
+    background-color: blueviolet;
+    text-align: center; 
+} 
+.two{
+    width: 50%;
+    background-color: blue; 
+    text-align: center;
+}
+
+.three{
+    width: 25%;
+    background-color: aqua;
+    color: black;
+}
+.four{
+    width: 25%;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+.five{
+    width: 25%;
+    background-color:rgb(212, 34, 34);
+    text-align: center;
+}
+.six{
+    width: 25%;
+    background-color:rgb(217, 199, 199);
+    text-align: center;
+}
+.seven{
+    width: 33.33%;
+    background-color: rgb(176, 104, 104);
+}
+.eight{
+    width: 33.33%;
+    background-color: rgb(107, 90, 90);
+}
+.nine{
+    width: 33.33%;
+    background-color: rgb(105, 6, 6);
+}
+.green{
+    width: 75%;
+    background-color: green;
+}
+.red{
+    width: 25%;
+    background-color: red;
+}
+.lightgreen{
+    width: 20%;
+    background-color: rgb(33, 205, 39);
+}
+.lightpink{
+    width: 80%;
+    background-color: rgb(221, 156, 156);
+}
+.indigo{
+    width: 40%;
+    background-color:indigo;
+}
+.coral{
+    width: 30%;
+    background-color:coral;
+}
+.chart{
+    width: 30%;
+    background-color: chartreuse;
+}
+.darkblue{
+    width: 20%;
+    background-color:darkblue;
+}
+.voilet{
+    width: 20%;
+    background-color:mediumvioletred;
+}
+.indian{
+    width: 20%;
+    background-color:indianred;
+}
+.orange{
+    width: 20%;
+    background-color:orange;
+}
+.fuchsia{
+    width: 20%;
+    background-color:fuchsia;
+}
+.darkred{
+    width: 10%;
+    background-color:darkred;
+}
+.magenta{
+    width: 10%;
+    background-color:darkmagenta;
+}
+.khaki{
+    width: 10%;
+    background-color:darkkhaki;
+}
+.gold{
+    width: 10%;
+    background-color:darkgoldenrod;
+}
+.cyan{
+    width: 10%;
+    background-color:lightcyan;
+    color: black;
+}
+.corn{
+    width: 10%;
+    background-color:cornflowerblue;
+}
+.chocolate{
+    width: 10%;
+    background-color:chocolate;
+}
+.crimson{
+    width: 10%;
+    background-color:crimson;
+}
+.bur{
+    width: 10%;
+    background-color:burlywood;
+}
+.late{
+    width: 10%;
+    background-color:darkslategray;
+}
+.deep{
+    width: 10%;
+    background-color:deeppink;
+}
+.golden{
+    width: 90%;
+    background-color:goldenrod;
+}
+.lime{
+    width: 90%;
+    background-color:lime;
+}
+.maroon{
+    width: 10%;
+    background-color:maroon;
+}
+.saddle{
+    width: 45%;
+    background-color:saddlebrown;
+}
+.peru{
+    width: 35%;
+    background-color:peru;
+}
+.olive{
+    width: 20%;
+    background-color:olive;
+}
+
+
+

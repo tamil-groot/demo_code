@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seller Product</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="demo.css">
+    </head>
+    <body>
+        <div class="container-fluid main ">
+            <div class="row justify-content-between">
+                <div class="col-6  ">
+                    <form action method="get" class=" pt-3 col-10 top1"
+                        name="myform">
+                        <input class="col-10 hidden" type="text" id="id" >
+
+                        <div class="col-12">
+                            <h1 class="text-capitalize product  pb-4">form
+                                validation</h1>
+                        </div>
+                        <input class="col-10 text-capitalize" 
+                                id="id" type="hidden">
+                        <div class="col-12">
+                            <label for="product" class="space h4">Product</label><br>
+                            <input class="col-10 text-capitalize" type="text"
+                                id="product">
+                            <p class="product-error" id="product-error"></p>
+                        </div>
+                        <div class=" col-12">
+                            <label for="quantity" class="space h4">Quatity</label><br>
+                            <input class="col-10 " type="number" id="quantity">
+                            <p id="quantity-error" class="product-error"></p>
+                        </div>
+                        <div class=" col-12 ">
+                            <label for="rate" class="space h4">Seller Prise</label><br>
+                            <input class="col-10" type="number" id="rate">
+                            <p id="rate-error" class="product-error text-capitalize"></p>
+                        </div>
+                        <div class="col-12  ">
+                            <label for="discription" class="space h4">Description</label><br>
+                            <input class="col-10 text-capitalize" type="text"
+                                id="discription">
+                            <p id="discription-error"
+                                class="product-error text-capitalize"></p>
+                        </div>
+                        <div class=" pt-3 col-12 ">
+                            <button type="button" class=" pl-5 pr-5 p-2 h5 sub"
+                                onclick="validation()">SUBMIT</button>
+                            <button type="button" class=" pl-5 pr-5 p-2 h5 sub1"
+                                onclick="update()">update</button>
+                            <!-- <button type="button" class=" pl-5 pr-5 p-2 h5" onclick="reset()">CLEAR</button>  -->
+                        </div>
+                        
+                    </form>
+           
+                </div>
+                <div class=" col-6 pt-5  top2" >
+                    <table class="col-12" id="dis">
+                        <tr class="text-capitalize h4 ">
+                            <th class="col-3 p-3 ">Product</th>
+                            <th class="col-3 p-3">Quantity</th>
+                            <th class="col-3 p-3">Seller Rate</th>
+                            <th class="col-3 p-3">Discription</th>
+                            <th class="col-3 p-3">Addition</th>
+                        </tr>
+                                             
+
+                            <tbody id="table"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="./demo.js"></script>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.topcontainer{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:rgb(34, 29, 58);
+    height: 30px;
+    position: sticky;
+}
+#menu{
+    position: relative;
+}
+li{
+    display: inline;
+    float: right;
+}
+li,a{
+    text-decoration: none;
+    color: white;
+}
+.first{
+    float: left;
+    padding:8px 5px;
+    font-size: small;
+}
+.second{
+    padding: 8px 5px;
+    font-size: small;
+}
+.containerone{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(119, 172, 143);
+    text-align: center;
+    color: white;
+}
+.boy{
+    border-radius: 60%;
+    margin-top: 2rem;
+}
+.artist{
+    color: white;
+    padding-top: 1rem;
+    font-size: small;
+}
+/* kmlckmpijfrlm */
+.containertwo{
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}
+/* kncckjnoi
+ */
+.containerthree{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.box{
+    height: 180px;
+    background-color: rgb(187, 40, 40);
+    width: 25%;
+    margin: 2rem;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+}
+.home{
+    border-radius: 50%;
+    margin-left: 1.8rem ;
+    margin-top: 1rem;
+}
+.food{
+    border-radius: 50%;
+    margin-left: 1.8rem ;
+    margin-top: 1rem;
+}
+.circus{
+    border-radius: 50%;
+    margin-left: 1.8rem ;
+    margin-top: 1rem;
+}
+.boxone{
+    height: 180px;
+    margin: 2rem;
+    background-color: dodgerblue;
+    width: 25%;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+}
+.boxtwo{
+    height: 180px;
+    margin: 2rem;
+    background-color: black;
+    width: 25%;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 10px;
+}
+.foot{
+    height: 150px;
+    background-color: rgb(119, 172, 143);
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-top: 6rem;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+}
+.innertp{
+    width: 50%;
+    height: 150px;
+    float: left;
+    background-color: rgb(119, 172, 143);
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.innerbtm{
+    width: 50%;
+    height: 150px;
+    float: left;
+    background-color: rgb(119, 172, 143);
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+.paragraph{
+    text-align: justify;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: rgb(119, 172, 143);
+}
+.end{
+    background-color: rgb(119, 172, 143);
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+.free{
+    color: white;
+    padding:5px 15px; 
+    background-color: rgb(119, 172, 143);
+    border: 1px solid wheat;
+}
