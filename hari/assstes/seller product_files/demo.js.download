@@ -1,0 +1,53 @@
+// alert('hi tamil')
+let productarray=[];
+
+function validation(){
+    var product=document.getElementById('product').value;    
+    var quantity=document.getElementById('quantity').value;    
+    var rate=document.getElementById('rate').value;    
+    var discript=document.getElementById('discription').value;
+
+    if(product==""){
+        error="Enter the product names";
+    }
+    else{
+        error="";
+    }
+    if(quantity==""){
+        error1="Enter the quantity number";
+    }
+    else{
+        error1="";
+    }
+    if(rate==""){
+        error2="Enter the rate ";
+  
+    }
+    else{
+        error2="";
+    }
+    if(discript==""){
+        error3="Write the content ";
+  
+    }
+    else{
+        error3="";
+    }
+    document.getElementById("product-error").innerHTML=error;
+    document.getElementById("quantity-error").innerHTML=error1;
+    document.getElementById("rate-error").innerHTML=error2;
+    document.getElementById("discription-error").innerHTML=error3;
+
+    let num={
+        product:product,
+        quantity:quantity,
+        rate:rate,
+        discription:discript
+    }
+    productarray.push(num);
+    console.log('productdatd',productarray);
+    reset();
+}
+function reset(){
+    document.myform.reset();
+}
